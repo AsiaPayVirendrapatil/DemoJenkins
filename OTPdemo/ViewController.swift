@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        print("Connection Establish")
+        print("Connection Establish he;l wlfw w wfo")
         print("Virendra Patil Done notifly tester")
         
         let favoritesVC = CardView()
