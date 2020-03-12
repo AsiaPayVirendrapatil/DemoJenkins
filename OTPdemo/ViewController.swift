@@ -17,6 +17,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        print("Virendra Patil Done notifly tester")
+        
         let favoritesVC = CardView()
         favoritesVC.title = "Favorites"
         favoritesVC.view.backgroundColor = UIColor.orange
