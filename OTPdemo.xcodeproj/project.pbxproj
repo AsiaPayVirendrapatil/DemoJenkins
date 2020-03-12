@@ -20,6 +20,7 @@
 		3706B391238E4E240014C344 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3706B390238E4E240014C344 /* Assets.xcassets */; };
 		3706B394238E4E240014C344 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3706B392238E4E240014C344 /* LaunchScreen.storyboard */; };
 		37E6DBF0241A1BDF00F38A0D /* OTPdemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E6DBEF241A1BDF00F38A0D /* OTPdemoTests.swift */; };
+		37E6DBF8241A461F00F38A0D /* DoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E6DBF7241A461F00F38A0D /* DoneView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,11 +51,10 @@
 		3706B393238E4E240014C344 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3706B395238E4E240014C344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37E6DBD7241A1B4500F38A0D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		37E6DBE1241A1BBF00F38A0D /* ConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterTests.swift; sourceTree = "<group>"; };
-		37E6DBE3241A1BBF00F38A0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37E6DBED241A1BDF00F38A0D /* OTPdemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OTPdemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37E6DBEF241A1BDF00F38A0D /* OTPdemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPdemoTests.swift; sourceTree = "<group>"; };
 		37E6DBF1241A1BDF00F38A0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37E6DBF7241A461F00F38A0D /* DoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				3706B385238E4E210014C344 /* OTPdemo */,
-				37E6DBE0241A1BBF00F38A0D /* ConverterTests */,
 				37E6DBEE241A1BDF00F38A0D /* OTPdemoTests */,
 				3706B384238E4E210014C344 /* Products */,
 				37E6DBD6241A1B4500F38A0D /* Frameworks */,
@@ -113,6 +112,7 @@
 				370587992390DCB8008FFA03 /* CardView.swift */,
 				3704F87D23977A58002AF077 /* TabView.swift */,
 				3704F881239783EE002AF077 /* OTPdemo-Bridging-Header.h */,
+				37E6DBF7241A461F00F38A0D /* DoneView.swift */,
 			);
 			path = OTPdemo;
 			sourceTree = "<group>";
@@ -123,15 +123,6 @@
 				37E6DBD7241A1B4500F38A0D /* XCTest.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		37E6DBE0241A1BBF00F38A0D /* ConverterTests */ = {
-			isa = PBXGroup;
-			children = (
-				37E6DBE1241A1BBF00F38A0D /* ConverterTests.swift */,
-				37E6DBE3241A1BBF00F38A0D /* Info.plist */,
-			);
-			path = ConverterTests;
 			sourceTree = "<group>";
 		};
 		37E6DBEE241A1BDF00F38A0D /* OTPdemoTests */ = {
@@ -253,6 +244,7 @@
 				370587982390DC8B008FFA03 /* HomeView.swift in Sources */,
 				3706B387238E4E210014C344 /* AppDelegate.swift in Sources */,
 				3706B38F238E4E210014C344 /* OTPdemo.xcdatamodeld in Sources */,
+				37E6DBF8241A461F00F38A0D /* DoneView.swift in Sources */,
 				3705879A2390DCB8008FFA03 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
