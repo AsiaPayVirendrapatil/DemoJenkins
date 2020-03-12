@@ -19,7 +19,18 @@
 		3706B38F238E4E210014C344 /* OTPdemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3706B38D238E4E210014C344 /* OTPdemo.xcdatamodeld */; };
 		3706B391238E4E240014C344 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3706B390238E4E240014C344 /* Assets.xcassets */; };
 		3706B394238E4E240014C344 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3706B392238E4E240014C344 /* LaunchScreen.storyboard */; };
+		37E6DBF0241A1BDF00F38A0D /* OTPdemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E6DBEF241A1BDF00F38A0D /* OTPdemoTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37E6DBF2241A1BDF00F38A0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3706B37B238E4E210014C344 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3706B382238E4E210014C344;
+			remoteInfo = OTPdemo;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3704F87D23977A58002AF077 /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
@@ -38,10 +49,23 @@
 		3706B390238E4E240014C344 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3706B393238E4E240014C344 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3706B395238E4E240014C344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37E6DBD7241A1B4500F38A0D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		37E6DBE1241A1BBF00F38A0D /* ConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterTests.swift; sourceTree = "<group>"; };
+		37E6DBE3241A1BBF00F38A0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37E6DBED241A1BDF00F38A0D /* OTPdemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OTPdemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E6DBEF241A1BDF00F38A0D /* OTPdemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPdemoTests.swift; sourceTree = "<group>"; };
+		37E6DBF1241A1BDF00F38A0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3706B380238E4E210014C344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E6DBEA241A1BDF00F38A0D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -55,7 +79,10 @@
 			isa = PBXGroup;
 			children = (
 				3706B385238E4E210014C344 /* OTPdemo */,
+				37E6DBE0241A1BBF00F38A0D /* ConverterTests */,
+				37E6DBEE241A1BDF00F38A0D /* OTPdemoTests */,
 				3706B384238E4E210014C344 /* Products */,
+				37E6DBD6241A1B4500F38A0D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				3706B383238E4E210014C344 /* OTPdemo.app */,
+				37E6DBED241A1BDF00F38A0D /* OTPdemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,6 +117,32 @@
 			path = OTPdemo;
 			sourceTree = "<group>";
 		};
+		37E6DBD6241A1B4500F38A0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37E6DBD7241A1B4500F38A0D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37E6DBE0241A1BBF00F38A0D /* ConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				37E6DBE1241A1BBF00F38A0D /* ConverterTests.swift */,
+				37E6DBE3241A1BBF00F38A0D /* Info.plist */,
+			);
+			path = ConverterTests;
+			sourceTree = "<group>";
+		};
+		37E6DBEE241A1BDF00F38A0D /* OTPdemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				37E6DBEF241A1BDF00F38A0D /* OTPdemoTests.swift */,
+				37E6DBF1241A1BDF00F38A0D /* Info.plist */,
+			);
+			path = OTPdemoTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -109,19 +163,41 @@
 			productReference = 3706B383238E4E210014C344 /* OTPdemo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		37E6DBEC241A1BDF00F38A0D /* OTPdemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37E6DBF4241A1BDF00F38A0D /* Build configuration list for PBXNativeTarget "OTPdemoTests" */;
+			buildPhases = (
+				37E6DBE9241A1BDF00F38A0D /* Sources */,
+				37E6DBEA241A1BDF00F38A0D /* Frameworks */,
+				37E6DBEB241A1BDF00F38A0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37E6DBF3241A1BDF00F38A0D /* PBXTargetDependency */,
+			);
+			name = OTPdemoTests;
+			productName = OTPdemoTests;
+			productReference = 37E6DBED241A1BDF00F38A0D /* OTPdemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		3706B37B238E4E210014C344 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1010;
+				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Virendra patil";
 				TargetAttributes = {
 					3706B382238E4E210014C344 = {
 						CreatedOnToolsVersion = 10.1;
 						LastSwiftMigration = 1010;
+					};
+					37E6DBEC241A1BDF00F38A0D = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 3706B382238E4E210014C344;
 					};
 				};
 			};
@@ -139,6 +215,7 @@
 			projectRoot = "";
 			targets = (
 				3706B382238E4E210014C344 /* OTPdemo */,
+				37E6DBEC241A1BDF00F38A0D /* OTPdemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -151,6 +228,13 @@
 				3706B394238E4E240014C344 /* LaunchScreen.storyboard in Resources */,
 				3706B391238E4E240014C344 /* Assets.xcassets in Resources */,
 				3706B38C238E4E210014C344 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E6DBEB241A1BDF00F38A0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,7 +257,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		37E6DBE9241A1BDF00F38A0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E6DBF0241A1BDF00F38A0D /* OTPdemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37E6DBF3241A1BDF00F38A0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3706B382238E4E210014C344 /* OTPdemo */;
+			targetProxy = 37E6DBF2241A1BDF00F38A0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3706B38A238E4E210014C344 /* Main.storyboard */ = {
@@ -352,6 +452,48 @@
 			};
 			name = Release;
 		};
+		37E6DBF5241A1BDF00F38A0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZDNLBDFMG6;
+				INFOPLIST_FILE = OTPdemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.asiapay.sdklib.OTPdemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OTPdemo.app/OTPdemo";
+			};
+			name = Debug;
+		};
+		37E6DBF6241A1BDF00F38A0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZDNLBDFMG6;
+				INFOPLIST_FILE = OTPdemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.asiapay.sdklib.OTPdemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OTPdemo.app/OTPdemo";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -369,6 +511,15 @@
 			buildConfigurations = (
 				3706B399238E4E240014C344 /* Debug */,
 				3706B39A238E4E240014C344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37E6DBF4241A1BDF00F38A0D /* Build configuration list for PBXNativeTarget "OTPdemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E6DBF5241A1BDF00F38A0D /* Debug */,
+				37E6DBF6241A1BDF00F38A0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
