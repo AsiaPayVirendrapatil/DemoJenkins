@@ -32,7 +32,7 @@ class OTPdemoTests: XCTestCase {
     
     func testConversionForTwo() {
         
-      let result = "123"
+      let result = "123455"
       XCTAssertEqual(result, "II", "Conversion for 2 is incorrect")
     }
 
